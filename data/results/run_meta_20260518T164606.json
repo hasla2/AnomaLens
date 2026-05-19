@@ -1,0 +1,17 @@
+{
+  "run_id": "20260518T164606",
+  "timestamp": "2026-05-18T17:16:38.363242",
+  "args": {
+    "labels": "data/labels/labels.csv",
+    "crossval": true,
+    "llm": false,
+    "logbert": true,
+    "mistral": true,
+    "llm_limit": 30,
+    "save_predictions": true,
+    "mistral_limit": 30
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "ood_threshold": 0.45
+}

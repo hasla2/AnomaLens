@@ -1,0 +1,7 @@
+Model,P,R,F1
+Naive Bayes (CNB),0.9013,1.0,0.9481
+Logistic Regression,0.9576,0.9997,0.9782
+Random Forest,0.9973,0.9991,0.9982
+LinearSVC,0.972,0.9997,0.9857
+"DeepLog [Du et al., 2017]",0.9615,0.9375,0.9493
+"LogBERT [Guo et al., 2021]",0.9827,0.979,0.9808

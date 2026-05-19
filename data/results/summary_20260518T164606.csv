@@ -1,0 +1,7 @@
+Model,Accuracy,Macro F1,W. F1,F1 error,F1 sec_n,Time (s)
+Naive Bayes (CNB),0.9171,0.8835,0.9154,0.9377,0.8582,0.63
+Random Forest,0.9863,0.9594,0.9863,0.9659,0.8911,0.74
+LogReg (baseline),0.9907,0.9746,0.9906,0.9731,0.9387,0.75
+LinearSVC,0.9937,0.9868,0.9937,0.9783,0.978,0.58
+"Mistral-7B (zero-shot, Ollama)",0.36,0.2891,0.3038,0.4444,0.0,3.3
+LogBERT (fine-tuned),0.9565,0.9568,0.9579,0.9719,0.9883,0.109

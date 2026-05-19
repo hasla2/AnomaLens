@@ -1,0 +1,12 @@
+graylog:
+  url: "[GRAYLOG_URL]"
+  token: "[GRAYLOG_TOKEN]"
+  verify_tls: true
+
+queries:
+  esxi: 'gl2_source_input:[INPUT_ID]'
+  hyperv: 'source:[HOST_NAME_PREFIX*]'
+
+collector:
+  range_seconds: 10800
+  limit: 10000  
